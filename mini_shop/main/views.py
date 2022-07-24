@@ -12,3 +12,7 @@ class OrganizationViewSet(viewsets.ModelViewSet):
 class ShopViewSet(viewsets.ModelViewSet):
     queryset = Shop.objects.all()
     serializer_class = ShopSerializer
+
+
+class ShopsFileView:
+    pass

@@ -15,7 +15,7 @@ class Shop(models.Model):
     description = models.TextField("Описание")
     address = models.TextField("Адрес")
     index = models.IntegerField("Индекс")
-    is_deleted = models.BooleanField("Удалено ли")
+    is_deleted = models.BooleanField("Удалено ли", default=False)
 
     def __str__(self):
         return f"Название магазина: {self.name}\nОписание: {self.description}"
