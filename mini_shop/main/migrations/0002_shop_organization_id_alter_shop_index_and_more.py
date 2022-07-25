@@ -13,7 +13,7 @@ class Migration(migrations.Migration):
     operations = [
         migrations.AddField(
             model_name='shop',
-            name='organization_id',
+            name='organization',
             field=models.ForeignKey(default=-1, on_delete=django.db.models.deletion.CASCADE, to='main.organization'),
             preserve_default=False,
         ),

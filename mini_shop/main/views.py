@@ -19,10 +19,10 @@ class OrganizationViewSet(viewsets.ModelViewSet):
 
     @action(methods=['get'], detail=True)
     def shops_file(self, request, pk):
+        """Returns xlsx-file of all shops related to the organization as a response"""
         shops = Shop.objects.all()
-        file_path = "main/files/shops.xlsx"
-        form_xlsx([ShopSerializer(n).data for n in shops if n.organization_id.id == int(pk)], file_path)
-        # TODO: do something with organization_id.id
+        file_path = f"main/files/shops_{pk}.xlsx"
+        form_xlsx([ShopSerializer(n).data for n in shops if n.organization.id == int(pk)], file_path)
         return return_xlsx(file_path)
 
 

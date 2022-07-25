@@ -6,9 +6,8 @@ class ShopSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Shop
-        fields = ('id', 'name', 'description', 'organization_id', 'address', 'index')
+        fields = ('id', 'name', 'description', 'address', 'index', 'is_deleted')
         # TODO: return only if not is_deleted
-        # TODO: find a way to remove organization_id without POST break
 
 
 class OrganizationSerializer(serializers.ModelSerializer):

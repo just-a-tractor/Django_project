@@ -10,7 +10,7 @@ class Organization(models.Model):
 
 
 class Shop(models.Model):
-    organization_id = models.ForeignKey(Organization, on_delete=models.CASCADE, related_name="shops")
+    organization = models.ForeignKey(Organization, on_delete=models.CASCADE, related_name="shops")
     name = models.CharField("Название", max_length=100)
     description = models.TextField("Описание")
     address = models.TextField("Адрес")
