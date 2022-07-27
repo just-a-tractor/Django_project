@@ -5,7 +5,7 @@ from rest_framework.decorators import action
 from .serializers import OrganizationSerializer, ShopSerializer
 from .models import Organization, Shop
 
-import pandas as pd
+import csv
 
 
 class ShopViewSet(viewsets.ModelViewSet):
@@ -19,23 +19,13 @@ class OrganizationViewSet(viewsets.ModelViewSet):
 
     @action(methods=['get'], detail=True)
     def shops_file(self, request, pk):
-        """Returns xlsx-file of all shops related to the organization as a response"""
-        shops = Shop.objects.all()
-        file_path = f"main/files/shops_{pk}.xlsx"
-        form_xlsx([ShopSerializer(n).data for n in shops if n.organization.id == int(pk)], file_path)
-        return return_xlsx(file_path)
-
-
-def form_xlsx(data=None, file_path=""):
-    df = pd.DataFrame(data)
-    writer = pd.ExcelWriter(file_path, engine='openpyxl')
-    df.to_excel(writer, index=False)
-    writer.save()
-
-
-def return_xlsx(file_path=None):
-    with open("./" + file_path, 'rb') as f:
-        file_data = f.read()
-    response = HttpResponse(file_data, content_type='application/vnd.ms-excel')
-    response['Content-Disposition'] = f'attachment; filename="{file_path.split("/")[-1]}"'
-    return response
+        """Returns csv-file of all shops related to the organization as a response"""
+        shops = [ShopSerializer(n).data for n in Shop.objects.all() if n.organization.id == int(pk)]
+        response = HttpResponse(content_type='text/csv')
+        response['Content-Disposition'] = f'attachment; filename="shops_{pk}.csv"'
+        writer = csv.writer(response)
+        writer.writerow(shops[0].keys())
+        for obj in shops:
+            writer.writerow(
+                [i for i in obj.values()])
+        return response
