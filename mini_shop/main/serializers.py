@@ -7,11 +7,15 @@ class ShopSerializer(serializers.ModelSerializer):
     class Meta:
         model = Shop
         fields = ('id', 'name', 'description', 'address', 'index', 'is_deleted')
-        # TODO: return only if not is_deleted
 
 
 class OrganizationSerializer(serializers.ModelSerializer):
-    shops = ShopSerializer(many=True, read_only=True)
+    shops = serializers.SerializerMethodField()
+
+    def get_shops(self, obj):
+        qs = Shop.objects.filter(organization=obj, is_deleted=False)
+        serialized = ShopSerializer(qs, many=True)
+        return serialized.data
 
     class Meta:
         model = Organization
