@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="889a4836-f753-44e0-a8a7-40d32f62a3ef" name="Changes" comment="Task 7 done">
+      <change beforePath="$PROJECT_DIR$/mini_shop/mini_shop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mini_shop/mini_shop/settings.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CFwSKqBGR5srRSw4vINnJ9Asf0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ashamota/PycharmProjects/drfsite",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="djangoProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\ashamota\AppData\Local\Programs\Python\Python310\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="889a4836-f753-44e0-a8a7-40d32f62a3ef" name="Changes" comment="" />
+      <created>1658411642036</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658411642036</updated>
+      <workItem from="1658411642036" duration="690000" />
+      <workItem from="1658412360510" duration="1213000" />
+      <workItem from="1658413607392" duration="13310000" />
+      <workItem from="1658484845711" duration="13304000" />
+      <workItem from="1658501321653" duration="2689000" />
+      <workItem from="1658509645475" duration="2992000" />
+      <workItem from="1658512673740" duration="1358000" />
+      <workItem from="1658566500359" duration="1189000" />
+      <workItem from="1658660370968" duration="9633000" />
+      <workItem from="1658746621743" duration="15637000" />
+      <workItem from="1658828749937" duration="33821000" />
+    </task>
+    <task id="LOCAL-00001" summary="Rest attempt(almost task 3)">
+      <created>1658426884928</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658426884928</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Little fixes, task 3 without &quot;is_deleted&quot; consideration">
+      <created>1658501250888</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658501250888</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Bugfix">
+      <created>1658663637602</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658663637602</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Task 4 done, little fixes">
+      <created>1658694472690</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658694472690</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Task 5 done">
+      <created>1658755512397</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658755512398</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Task 6 (almost) done, little fixes">
+      <created>1658780362360</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658780362360</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Task 3 done">
+      <created>1658916583248</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658916583248</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Code improvement">
+      <created>1658923512589</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658923512589</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Task 7 done">
+      <created>1658929949074</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658929949074</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Rest attempt(almost task 3)" />
+    <MESSAGE value="Little fixes, task 3 without &quot;is_deleted&quot; consideration" />
+    <MESSAGE value="Bugfix" />
+    <MESSAGE value="Task 4 done, little fixes" />
+    <MESSAGE value="Task 5 done" />
+    <MESSAGE value="Task 6 (almost) done, little fixes" />
+    <MESSAGE value="Task 3 done" />
+    <MESSAGE value="Code improvement" />
+    <MESSAGE value="Task 7 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 7 done" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/Programs/Python/Python310/Lib/site-packages/rest_framework/serializers.py</url>
+          <line>1094</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/Programs/Python/Python310/Lib/site-packages/rest_framework/serializers.py</url>
+          <line>1090</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/Programs/Python/Python310/Lib/site-packages/rest_framework/serializers.py</url>
+          <line>858</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mini_shop/main/views.py</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mini_shop/mini_shop/asgi.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/djangoProject$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1658748763599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>
