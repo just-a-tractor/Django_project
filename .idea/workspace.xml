@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="889a4836-f753-44e0-a8a7-40d32f62a3ef" name="Changes" comment="Task 7 done">
+    <list default="true" id="889a4836-f753-44e0-a8a7-40d32f62a3ef" name="Changes" comment="Tasks 8, 9 done">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_shop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mini_shop/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_shop/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mini_shop/main/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mini_shop/mini_shop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mini_shop/mini_shop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +85,7 @@
       <workItem from="1658566500359" duration="1189000" />
       <workItem from="1658660370968" duration="9633000" />
       <workItem from="1658746621743" duration="15637000" />
-      <workItem from="1658828749937" duration="33821000" />
+      <workItem from="1658828749937" duration="46973000" />
     </task>
     <task id="LOCAL-00001" summary="Rest attempt(almost task 3)">
       <created>1658426884928</created>
@@ -144,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658929949074</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Tasks 8, 9 done">
+      <created>1659043929951</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659043929951</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +184,8 @@
     <MESSAGE value="Task 3 done" />
     <MESSAGE value="Code improvement" />
     <MESSAGE value="Task 7 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 7 done" />
+    <MESSAGE value="Tasks 8, 9 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tasks 8, 9 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -190,10 +204,6 @@
           <url>file://$USER_HOME$/AppData/Local/Programs/Python/Python310/Lib/site-packages/rest_framework/serializers.py</url>
           <line>858</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/mini_shop/main/views.py</url>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/mini_shop/mini_shop/asgi.py</url>

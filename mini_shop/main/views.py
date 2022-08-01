@@ -20,7 +20,7 @@ class OrganizationViewSet(viewsets.ModelViewSet):
     @action(methods=['get'], detail=True)
     def shops_file(self, request, pk):
         """Returns csv-file of all shops related to the organization as a response"""
-        shops = [ShopSerializer(n).data for n in Shop.objects.all() if n.organization.id == int(pk)]
+        shops = [ShopSerializer(n).data for n in Shop.objects.filter(organization=int(pk))]
         response = HttpResponse(content_type='text/csv')
         response['Content-Disposition'] = f'attachment; filename="shops_{pk}.csv"'
         writer = csv.writer(response)
