@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'main',
     'rest_framework',
     'drf_yasg',
+    'background_task',
     'rest_framework_simplejwt'
 ]
 
@@ -131,7 +132,10 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
         'rest_framework.authentication.BasicAuthentication',
         'rest_framework.authentication.SessionAuthentication'
-    )
+    ),
+    'DEFAULT_PERMISSION_CLASSES': [
+            'rest_framework.permissions.IsAuthenticatedOrReadOnly',
+        ]
 }
 
 SIMPLE_JWT = {
